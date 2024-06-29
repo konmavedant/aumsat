@@ -1,0 +1,67 @@
+.sidebar {
+    width: 250px;
+    height: calc(100vh - 40px); /* Adjust height to fit the viewport */
+    background-color: #3f89d3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 20px; /* Adding curved borders */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+    margin: 15px; /* Add margin to create space from edges */
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-radius 0.3s;
+    width: 100%;
+}
+
+.sidebar-item:hover {
+    background-color: #3674b3;
+    border-radius: 14px; 
+}
+
+.sidebar-item span {
+    margin-left: 10px;
+}
+
+.logout {
+    margin-top: auto; /* Push logout to bottom */
+}
+
+.logout-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s, border-radius 0.3s;
+    width: 100%;
+}
+
+.logout-button:hover {
+    background-color: #3674b3;
+    color: white;
+    border-radius: 14px; 
+}
+
+.logout-button span {
+    margin-left: 10px;
+}

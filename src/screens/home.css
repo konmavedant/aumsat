@@ -1,0 +1,18 @@
+.home-page {
+  display: flex;
+  height: 98vh;
+  width: 98vw;
+}
+
+.home-container {
+  display: flex;
+  flex: 1; /* Take remaining space after sidebar */
+  margin: 3px;
+}
+
+.container {
+  width: 100%; /* Take full width of home-container */
+  background-color: #f1f1f1; /* Example background color */
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
